@@ -1,0 +1,142 @@
+.Search_btn {
+    z-index: auto;
+}
+
+.fullDetailsPage {
+    position: fixed;
+    top: 111px;
+    right: 470px;
+
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-cancel {
+    background-color: #dc3545;
+    color: #ffffff;
+    margin-right: 5px;
+}
+
+.btn-cancel:hover {
+    background-color: #c82333;
+    transform: scale(1.05);
+}
+
+.btn-confirm {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.btn-confirm:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+
+
+/* Default Styles (Desktop) */
+.buslist_section h4,
+.buslist_section h3 {
+    font-size: 2rem;
+}
+
+.buslist_section .input-group {
+    justify-content: center;
+}
+
+.buslist_section .form-control {
+    width: 25%;
+    min-width: 200px;
+    /* Minimum width for better responsiveness */
+}
+
+.buslist_section table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.buslist_section th,
+.buslist_section td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+/* Medium Devices (Tablets) */
+@media only screen and (max-width: 992px) {
+    .fullDetailsPage {
+        position: absolute;
+        right: 30%;
+        top: 300px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .buslist_section h4,
+    .buslist_section h3 {
+        font-size: 1.75rem;
+    }
+
+    .buslist_section .form-control {
+        width: 45%;
+    }
+
+    .buslist_section table th,
+    .buslist_section table td {
+        font-size: 0.9rem;
+    }
+
+    .fullDetailsPage {
+        position: absolute;
+        right: 30%;
+        top: 300px;
+    }
+}
+
+/* Small Devices (Mobile Phones) */
+@media only screen and (max-width: 480px) {
+
+    .buslist_section h4,
+    .buslist_section h3 {
+        font-size: 1.5rem;
+    }
+
+    .buslist_section .form-control {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .buslist_section .input-group .Search_btn {
+        width: 100%;
+    }
+
+    .buslist_section table th,
+    .buslist_section table td {
+        font-size: 0.8rem;
+        padding: 5px;
+    }
+
+    .buslist_section table {
+        font-size: 0.9rem;
+    }
+
+    .fullDetailsPage {
+        position: absolute;
+        left: 10%;
+        top: 300px;
+    }
+}

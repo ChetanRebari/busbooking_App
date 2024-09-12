@@ -1,0 +1,13 @@
+
+<div class="details-box">
+    <h2>Full Details</h2>
+    <ul  *ngFor="let item of selcectedBusBook">
+        <li><strong>Bus Route:</strong>Jaipur To {{item.bus_route}} </li>
+        <li><strong>Bus Number:</strong> {{item.bus_number}}</li>
+        <li><strong>Driver Name:</strong> {{item.driver_name}}</li>
+        <li><strong>Bus Company:</strong> {{item.bus_company}}</li>
+        <li><strong>Total Set:</strong> {{item.capacity}}</li>
+        <li><strong>Ticket Price:</strong> {{item.ticket_price | currency:"INR"}}</li>
+    </ul>
+    <ng-content></ng-content>
+</div>

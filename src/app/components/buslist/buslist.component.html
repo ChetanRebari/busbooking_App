@@ -1,0 +1,53 @@
+<!-- <p>buslist works!</p> -->
+
+<section class="buslist_section">
+    <div class="container mt-5 mb-5">
+        <div class="row">
+            <div class="text-center">
+                <h4 class="text-danger">Search Travels Bus Tickets</h4>
+                <div class="input-group mt-2">
+                    <input type="text" class="form-control w-25" [defaultValue]="defultValue" readonly>
+                    <input type="text" class="form-control w-25" placeholder="going to" #searchInput>
+                    <button type="button" class="btn btn-sm btn-danger ms-2  Search_btn"
+                        (click)="searchBas(searchInput.value)">Search</button>
+                      
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="text-center mt-5">
+                <h3 class="text-danger"> Travels Bus Top Routes & Timings</h3>
+            </div>
+
+            <table class="mt-3">
+                <thead class="border">
+                    <tr>
+                        <th>Bus Routes</th>
+                        <th>Bus Timings</th>
+                        <th>Ticket Price</th>
+                        <th>Booking</th>
+                    </tr>
+                </thead>
+                <tbody class="border">
+                    <tr *ngFor="let allBus of(filteredBusList || busList)">
+                        <td class="border">jaipur To {{allBus.bus_route}}</td>
+                        <td class="border">{{allBus.departure_time}}</td>
+                        <td class="border">{{allBus.ticket_price | currency:'INR'}}</td>
+                        <td><button type="button" class="btn btn-primary" [disabled]="isDesabled"
+                                (click)="selecteBus(allBus)">Bus Book</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+
+<div class="fullDetailsPage button-group" *ngIf="fullDetialsPage">
+    <app-full-details [selcectedBusBook]="selectedBus">
+        <button class="btn btn-danger btn-cancel" (click)="close_Btn()">Cancle</button>
+        <button class="btn btn-primary btn-confirm" (click)="conform_Btn()">Conform</button>
+
+    </app-full-details>
+</div>

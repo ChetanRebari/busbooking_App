@@ -1,0 +1,32 @@
+.contact-content {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-content h2 {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.contact-content h3 {
+    margin-top: 20px;
+    color: #0056b3;
+}
+
+.contact-info p,
+.social-media p {
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+.social-media a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,279 @@
+[
+    {
+        "bus_number": 50,
+        "bus_route": "Ajmer",
+        "departure_time": "12:02 AM",
+        "arrival_time": "2:57 PM",
+        "driver_name": "Anthe Odeson",
+        "capacity": 91,
+        "ticket_price": "200",
+        "bus_company": "Topicware",
+        "bus_condition": "Fair"
+    },
+    {
+        "bus_number": 52,
+        "bus_route": "Alwar",
+        "departure_time": "9:06 PM",
+        "arrival_time": "5:44 PM",
+        "driver_name": "Chelsea Petriello",
+        "capacity": 73,
+        "ticket_price": "400",
+        "bus_company": "Babbleset",
+        "bus_condition": "Good"
+    },
+    {
+        "bus_number": 14,
+        "bus_route": "Banswara",
+        "departure_time": "5:34 AM",
+        "arrival_time": "6:56 AM",
+        "driver_name": "Brittney Ranken",
+        "capacity": 42,
+        "ticket_price": "350",
+        "bus_company": "Divape",
+        "bus_condition": "Fair"
+    },
+    {
+        "bus_number": 93,
+        "bus_route": "Baran",
+        "departure_time": "7:00 PM",
+        "arrival_time": "4:19 AM",
+        "driver_name": "Nancie Such",
+        "capacity": 27,
+        "ticket_price": "466",
+        "bus_company": "Topicshots",
+        "bus_condition": "Good"
+    },
+    {
+        "bus_number": 90,
+        "bus_route": "Barmer",
+        "departure_time": "10:26 PM",
+        "arrival_time": "12:49 AM",
+        "driver_name": "Matt Mabone",
+        "capacity": 93,
+        "ticket_price": "353",
+        "bus_company": "Babbleopia",
+        "bus_condition": "Fair"
+    },
+    {
+        "bus_number": 97,
+        "bus_route": "Bharatpur",
+        "departure_time": "10:07 AM",
+        "arrival_time": "1:15 PM",
+        "driver_name": "Maynord Stephens",
+        "capacity": 56,
+        "ticket_price": "230",
+        "bus_company": "Thoughtstorm",
+        "bus_condition": "Good"
+    },
+    {
+        "bus_number": 75,
+        "bus_route": "Bhilwara",
+        "departure_time": "2:44 PM",
+        "arrival_time": "9:56 PM",
+        "driver_name": "Darbie Buchanan",
+        "capacity": 87,
+        "ticket_price": "600",
+        "bus_company": "Kwideo",
+        "bus_condition": "Good"
+    },
+    {
+        "bus_number": 43,
+        "bus_route": "Bikaner",
+        "departure_time": "11:21 PM",
+        "arrival_time": "7:17 AM",
+        "driver_name": "Reta Tutill",
+        "capacity": 61,
+        "ticket_price": "550",
+        "bus_company": "Bubbletube",
+        "bus_condition": "Good"
+    },
+    {
+        "bus_number": 72,
+        "bus_route": "Bundi",
+        "departure_time": "6:46 PM",
+        "arrival_time": "9:21 PM",
+        "driver_name": "Levi Arlott",
+        "capacity": 86,
+        "ticket_price": "770",
+        "bus_company": "Leexo",
+        "bus_condition": "Poor"
+    },
+    {
+        "bus_number": 7,
+        "bus_route": "Chittorgarh",
+        "departure_time": "3:00 AM",
+        "arrival_time": "12:29 PM",
+        "driver_name": "Kaila Dudny",
+        "capacity": 79,
+        "ticket_price": "440",
+        "bus_company": "Gigazoom",
+        "bus_condition": "Fair"
+    },
+    {
+        "bus_number": 13,
+        "bus_route": "Churu",
+        "departure_time": "4:01 AM",
+        "arrival_time": "12:36 PM",
+        "driver_name": "Jillian Costelloe",
+        "capacity": 20,
+        "ticket_price": "549",
+        "bus_company": "Realbuzz",
+        "bus_condition": "Good"
+    },
+    {
+        "bus_number": 36,
+        "bus_route": "Dausa",
+        "departure_time": "2:47 PM",
+        "arrival_time": "7:20 AM",
+        "driver_name": "Esra Cadogan",
+        "capacity": 44,
+        "ticket_price": "800",
+        "bus_company": "Skyba",
+        "bus_condition": "Poor"
+    },
+    {
+        "bus_number": 40,
+        "bus_route": "Dholpur",
+        "departure_time": "1:36 AM",
+        "arrival_time": "2:57 AM",
+        "driver_name": "Kennie Asey",
+        "capacity": 22,
+        "ticket_price": "630",
+        "bus_company": "Browsebug",
+        "bus_condition": "Good"
+    },
+    {
+        "bus_number": 61,
+        "bus_route": "Dungarpur",
+        "departure_time": "6:35 PM",
+        "arrival_time": "12:51 AM",
+        "driver_name": "Ree Pritchett",
+        "capacity": 42,
+        "ticket_price": "459",
+        "bus_company": "Trupe",
+        "bus_condition": "Good"
+    },
+    {
+        "bus_number": 65,
+        "bus_route": "Hanumangarh",
+        "departure_time": "2:06 PM",
+        "arrival_time": "4:20 AM",
+        "driver_name": "Isacco Windless",
+        "capacity": 62,
+        "ticket_price": "854",
+        "bus_company": "Roombo",
+        "bus_condition": "Good"
+    },
+    {
+        "bus_number": 47,
+        "bus_route": "Jaisalmer",
+        "departure_time": "3:58 PM",
+        "arrival_time": "10:22 AM",
+        "driver_name": "Jany Wield",
+        "capacity": 59,
+        "ticket_price": "389",
+        "bus_company": "Voomm",
+        "bus_condition": "Fair"
+    },
+    {
+        "bus_number": 11,
+        "bus_route": "Jalore",
+        "departure_time": "10:31 AM",
+        "arrival_time": "5:01 AM",
+        "driver_name": "Doralynn Slemming",
+        "capacity": 37,
+        "ticket_price": "270",
+        "bus_company": "Thoughtworks",
+        "bus_condition": "Fair"
+    },
+    {
+        "bus_number": 94,
+        "bus_route": "Jhalawar",
+        "departure_time": "8:11 AM",
+        "arrival_time": "10:19 PM",
+        "driver_name": "Deina McAw",
+        "capacity": 41,
+        "ticket_price": "530",
+        "bus_company": "Photobug",
+        "bus_condition": "Fair"
+    },
+    {
+        "bus_number": 54,
+        "bus_route": "Jhunjhunu",
+        "departure_time": "3:24 PM",
+        "arrival_time": "7:20 AM",
+        "driver_name": "Ximenes Leathem",
+        "capacity": 36,
+        "ticket_price": "955",
+        "bus_company": "Mydeo",
+        "bus_condition": "Fair"
+    },
+    {
+        "bus_number": 28,
+        "bus_route": "Jodhpur",
+        "departure_time": "1:43 PM",
+        "arrival_time": "1:13 AM",
+        "driver_name": "Derril Ducket",
+        "capacity": 85,
+        "ticket_price": "359",
+        "bus_company": "Podcat",
+        "bus_condition": "Good"
+    },
+    {
+        "bus_number": 7,
+        "bus_route": "Karauli",
+        "departure_time": "3:45 AM",
+        "arrival_time": "5:16 AM",
+        "driver_name": "Inigo Adshed",
+        "capacity": 68,
+        "ticket_price": "390",
+        "bus_company": "Feednation",
+        "bus_condition": "Good"
+    },
+    {
+        "bus_number": 6,
+        "bus_route": "Kota",
+        "departure_time": "8:23 PM",
+        "arrival_time": "10:42 AM",
+        "driver_name": "Laurie Ferreli",
+        "capacity": 95,
+        "ticket_price": "800",
+        "bus_company": "Kazio",
+        "bus_condition": "Fair"
+    },
+    {
+        "bus_number": 63,
+        "bus_route": "Nagaur",
+        "departure_time": "5:48 PM",
+        "arrival_time": "9:12 AM",
+        "driver_name": "Obidiah Gentry",
+        "capacity": 13,
+        "ticket_price": "340",
+        "bus_company": "Browsedrive",
+        "bus_condition": "Poor"
+    },
+    {
+        "bus_number": 95,
+        "bus_route": "Pali",
+        "departure_time": "12:40 PM",
+        "arrival_time": "9:34 PM",
+        "driver_name": "Carena Le Marquis",
+        "capacity": 89,
+        "ticket_price": "690",
+        "bus_company": "Skaboo",
+        "bus_condition": "Fair"
+    },
+    {
+        "bus_number": 69,
+        "bus_route": "Pratapgarh",
+        "departure_time": "6:47 AM",
+        "arrival_time": "9:07 AM",
+        "driver_name": "Arlinda Davinet",
+        "capacity": 100,
+        "ticket_price": "900",
+        "bus_company": "Nlounge",
+        "bus_condition": "Fair"
+    }
+]
+    
+        
